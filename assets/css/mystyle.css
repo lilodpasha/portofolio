@@ -1,0 +1,49 @@
+@font-face {
+  font-family: myFirstFontbold;
+  src: url("assets/font/font/SFPRODISPLAYBOLD.OTF");
+}
+.intro .lilo h3 {
+  font-family: "SF Pro Display";
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.intro .lilo p {
+  font-weight: 500 !important;
+  font-size: 28px !important;
+  font-family: "SF Pro Display";
+}
+
+.intro img {
+  width: 100% !important;
+}
+
+@media (min-width: 1200px) {
+  .intro .lilo h3 {
+    margin-top: 80px !important;
+  }
+
+  .experience h3 {
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    font-size: 64px !important;
+  }
+}
+@media (max-width: 576px) {
+  .intro img {
+    width: 400px !important ;
+  }
+  .intro .lilo h3 {
+    font-family: "SF Pro Display";
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .intro .lilo p {
+    font-weight: 500 !important;
+    font-size: 28px !important;
+    font-family: "SF Pro Display";
+    text-align: center;
+  }
+}
