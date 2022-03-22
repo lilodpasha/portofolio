@@ -2,6 +2,12 @@
   font-family: myFirstFontbold;
   src: url("assets/font/font/SFPRODISPLAYBOLD.OTF");
 }
+
+/* My Font */
+.my-font {
+  font-family: "SF Pro Display";
+}
+/* My Font */
 .intro .lilo h3 {
   font-family: "SF Pro Display";
   font-size: 64px;
